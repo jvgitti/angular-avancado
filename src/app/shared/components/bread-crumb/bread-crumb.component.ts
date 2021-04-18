@@ -19,7 +19,7 @@ export class BreadCrumbComponent implements OnInit {
   ngOnInit() {
   }
 
-  isTheLastItem(item: BreadCrumbItem): boolean{
+  isTheLastItem(item: BreadCrumbItem): boolean {
     const index = this.items.indexOf(item);
     return index + 1 == this.items.length;
   }
